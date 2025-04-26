@@ -8,6 +8,7 @@ Bu proje, UIKit ve Core Data kullanılarak oluşturulmuş basit bir yapılacakla
 - Görev detaylarını yeni bir sayfada görüntüleme
 - Görevleri silme (swipe-to-delete özelliği)
 - Core Data ile otomatik veri kaydı
+- Tüm arayüz elemanları, storyboard kullanmadan programatik olarak oluşturulmuştur.
 
 ## Mimarisi
 
@@ -17,6 +18,7 @@ Uygulama aşağıdaki yapı ve prensipleri kullanır:
 - **UITableView**: Listeleme için
 - **UIViewController**: Ekran yönetimi
 - **UINavigationController**: Ekranlar arası geçiş
+- **Programmatic UI**: Tüm kullanıcı arayüzü elemanları (UILabel, UIButton, UITableView vb.) programatik olarak tanımlanmış ve yerleştirilmiştir.
 
 ## Kurulum
 
